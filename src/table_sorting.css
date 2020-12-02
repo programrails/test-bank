@@ -1,0 +1,35 @@
+.table-sorting th .order:before {
+    margin-left: 3.5px;
+    content: "\2191";
+    opacity: 0.4;
+    cursor: pointer;
+}
+.table-sorting th .order:after {
+    content: "\2193";
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+.table-sorting th .order-asc:before {
+    margin-left: 3.5px;
+    content: "\2191";
+    cursor: pointer;
+}
+.table-sorting th .order-asc:after {
+    content: "\2193";
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+.table-sorting th .order-desc:before {
+    margin-left: 3.5px;
+    content: "\2191";
+    opacity: 0.4;
+    cursor: pointer;
+}
+.table-sorting th .order-desc:after {
+    content: "\2193";
+    cursor: pointer;
+}
